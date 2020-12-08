@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> 속지 자료 등록</title>
+        <meta charset = "utf-8">
+        <style>
+            body{
+
+                height: 100%;
+                background-color:#edd8da;
+            }
+
+            label{
+                display: inline-block;
+                width: 120px;
+            }
+
+
+            input{
+                display: inline-block;
+                width: 160px;
+            }
+            
+
+
+        </style>
+
+    </head>
+    <body>
+
+        <div id = "share">
+            <form method = "post" action = "process.jsp"></form>
+            <fieldset>
+                <legend>속지 자료 등록</legend>
+                <label for= "file">파일</label>
+                <input type = "file" display: inline-block;></br>
+                <label for= "tit1">제목</label1>
+                <input type = "tit1" name = "tit1"/><br />
+                <label for= "category">카테고리</label> <br />
+                <input type="radio" name="category" value="character" style="width:30px">캐릭터 <br/>
+                <input type="radio" name="category" value="diary" style="width:30px"> 수학문제<br/>
+                <input type="radio" name="category" value="math" style="width:30px"> 일기장<br/>
+                <input type="radio" name="category" value="memo" style="width:30px"> 메모지<br/>
+                <input type="radio" name="category" value="planner" style="width:30px"> 플래너<br/>
+                <label for= "category">소개글</label> <br />
+                <input type = "intro" name = "intro" style="width:300px"/><br />
+                <label for= "category">필기꿀팁</label> <br />
+                <input type = "tip" name = "tip" style="width:300px"/><br />
+                <label for= "file">필기 예시 사진</label><br />
+                <input type = "file"></br>
+                <label for= "color">필기 색깔 추천</label> <br />
+                <input type = "color" name = "color1" style="width:20px"/>
+                <input type = "color" name = "color2" style="width:20px"/>
+                <input type = "color" name = "color3" style="width:20px"/><br />
+            </fieldset>
+            <input type = "submit" name = "submit" value = "제출" />
+            <input type = "reset" name = "reset" value = "초기화" />
+            </form>
+        </div>
+
+    
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+</html>
